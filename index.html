@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGS Reformando para você</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   
+    <header>
+        <img src="./img/pngwing.com.png" class="logo" alt="logo">
+        <p class="texts">CGS</p>
+        <p class="text">Reformando para você</p>
+    </header>
+
+    <nav>
+        <a href=> Home</a>
+        <a onclick="clica()">Orçamento</a>
+        <a href="">Nossos Serviços</a>
+    </nav>
+    
+    
+    
+    <section id="inicio">
+        <div class="info-1">
+        <h1>Transforme Seu Espaço com Qualidade e Confiança</h1>
+        <p>Na CGS, somos especialistas em reformas e construções, oferecendo soluções completas para revitalizar seu imóvel ou criar a estrutura dos seus sonhos. Com uma equipe experiente e comprometida, garantimos resultados que combinam inovação, qualidade e eficiência.</p>
+        <button class="orça" onclick="clica()">PEDIR ORÇAMENTO</button>
+    </div>
+
+    <div class="info-2">
+        <h2>Por que escolher a CGS para sua obra?</h2>
+        <ul>
+            <li>Excelência em cada detalhe, Da concepção à execução, cada projeto é tratado com o máximo cuidado e precisão.</li>
+            <li>Transparência, oferecemos orçamentos claros e detalhados, sem surpresas ou custos ocultos.</li>
+            <li>Materiais de alta qualidade, ultilizamos os melhores materiais para garantir durabilidade e segurança.</li>
+        </ul>
+    </div>
+    
+    </section>
+
+    <div>
+        <img src="./img/obras-construcao-civil-02.jpg" class="img-fundo" alt="imagem-construçao">
+    </div>
+    <div class="mascara"></div>
+
+
+    <div onclick="cliquei()" class="mascara-form"></div> 
+   
+<form class="form">
+    <label for="1">
+       <p class="label"> Seu nome:</p>
+    <input class="1" type="text" autocomplete="name" id="name" name="name" >
+</label>
+<label for="2" class="for">
+   <p class="label"> Seu telefone:</p>
+<input class="2" type="tel" autocomplete="tel" placeholder="(00)00000-0000" id="telefone" name="telefone">
+</label>
+<label for="3">
+    <p class="label">Digite o serviço aqui:</p>
+    <textarea class="3" placeholder="Digite aqui" id="texto" name="texto"></textarea>
+    <button class="formula" type="submit"> ENVIAR</button>
+</label>
+</form>
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

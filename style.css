@@ -1,0 +1,236 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+
+}
+
+
+
+section {
+    align-items: end;
+    padding: 350px 0px;
+    justify-content: space-around;
+    display: flex;
+    height: 100vh;
+    
+    
+    
+}
+
+p {
+    width: 600px;
+    margin-top: 12px;
+    font-size: 27px;
+    color: white;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 36px;
+    width: 600px;
+    color: rgb(0, 93, 168);
+    font-weight: 400;
+    
+}
+
+.info-1 {
+
+    position: relative;
+    top: 250px;
+    left: 0;
+    
+}
+
+.info-2 {
+    position: relative;
+    top: 90px;
+    right: 100px;
+    padding: 30px 40px;
+    background: rgb(0, 93, 168);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+li {
+    width: 450px;
+    margin-top: 10px;
+}
+.img-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    filter: brightness(20%);
+   
+}
+
+.logo {
+    height: 70px;
+    position: fixed;
+    top: 14px;
+    left: 180px;
+    cursor: pointer;
+    
+}
+.text {
+    height: 20px;
+    font-size: 15px;
+    position: fixed;
+    top: 67px;
+    left: 170px;
+    color: rgb(0, 158, 224);
+    font-weight: 400;
+    cursor: pointer;
+    
+
+    
+}
+.texts {
+    height: 20px;
+    font-size: 15px;
+    position: fixed;
+    top: 50px;
+    left: 230px;
+    color: rgb(0, 158, 224);
+    font-weight: 400;
+    cursor: pointer;
+
+
+}
+
+
+nav {
+    position: fixed;
+    top: 50px;
+    left: 450px;
+}
+
+a {
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    margin-right: 90px;
+    font-weight: 100;
+    transition: bottom 2s ease-in-out;
+    cursor: pointer;
+}
+
+a:hover {
+
+color:  rgb(5, 120, 170);
+font-size: 20px;
+transition: 0.2s ease-in-out;
+
+ }
+
+ .mascara {
+    height: 100%;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background: linear-gradient(#000000, #00000000), rgba(0,0,0,0);
+     }
+
+    .section-2 {
+        
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+       .text-form {
+        position: relative;
+        right: 600px;
+        bottom: 230px;
+        width: 900px;
+       }
+    
+    }
+
+    form {
+        display: flex;
+        background:  white;
+        flex-direction: column;
+        padding: 2px 50px 50px 50px ;
+        border: 30px;
+        width: 300px;
+        transition: left 1s ease-in-out;
+        position: fixed;
+        top: 30%;
+        left: -400px;
+        border-radius: 20px;
+    }
+
+    input {
+        padding: 8px;
+        top: 10px;
+        border-radius: 10px;
+        outline-color:  rgb(5, 120, 170);
+        border: 1px solid black;
+        
+    }
+    textarea {
+        padding: 0px 10px 50px 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        outline-color: rgb(5, 120, 170);
+        margin-bottom: 15px;
+    }
+    .formula {
+        height: 50px;
+        width: 180px;
+        font-size: 14px;
+        font-weight: bold;
+        left: -400px;
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(5, 120, 170);
+        color: white;
+        cursor: pointer;
+        
+
+    }
+
+    .label {
+        color: black;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    #form {
+        transition: bottom 2s ease-in-out;
+    } 
+    
+    
+
+    .orça {
+        background:  rgb(0, 93, 168);
+        height: 50px;
+        width: 180px;
+        font-size: 14px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .mascara-form {
+        visibility: hidden;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+       transition: visibility 1s ease-in-out  ;
+        
+    }
+
+    
+
